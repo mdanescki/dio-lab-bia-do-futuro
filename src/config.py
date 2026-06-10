@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-GEMINI_API_KEY = "AQ.Ab8RN6I8-MsUaWdinaP_-bTvlBpLHWIa24hJ_cDkhaBeJ0WvBQ"
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 SYSTEM_PROMPT = """
 Você é o Orça, um assistente financeiro pessoal inteligente e acolhedor.
