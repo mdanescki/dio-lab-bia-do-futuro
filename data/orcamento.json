@@ -1,0 +1,11 @@
+{
+  "mes_referencia": "2025-10",
+  "limites": {
+    "alimentacao": 600.00,
+    "moradia": 1400.00,
+    "transporte": 300.00,
+    "saude": 200.00,
+    "lazer": 150.00
+  },
+  "alerta_percentual": 80
+}
