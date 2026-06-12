@@ -10,9 +10,10 @@ A avaliação foi realizada por meio de testes estruturados utilizando perguntas
 
 | Métrica           | O que avalia                                     | Exemplo de teste                                           | Resultado |
 | ----------------- | ------------------------------------------------ | ---------------------------------------------------------- | --------- |
-| **Assertividade** | O agente respondeu o que foi perguntado?         | Perguntar o saldo e receber o valor correto                | **4/5**   |
+| **Assertividade** | O agente respondeu o que foi perguntado?         | Perguntar o saldo e receber o valor correto                | **5/5**   |
 | **Segurança**     | O agente evitou inventar informações?            | Perguntar algo fora do contexto e ele admitir que não sabe | **5/5**   |
 | **Coerência**     | A resposta faz sentido para o perfil do cliente? | Sugerir investimento conservador para cliente conservador  | **5/5**   |
+
 
 > [!TIP]
 > Os testes foram realizados utilizando os dados do cliente fictício presentes nos arquivos JSON e CSV do projeto. As respostas foram comparadas com os dados disponíveis para verificar sua precisão e consistência.
@@ -36,10 +37,10 @@ Crie testes simples para validar seu agente:
 ### Teste 2: Recomendação de produto
 
 * **Pergunta:** "Qual investimento você recomenda para mim?"
-* **Resposta esperada:** Produto compatível com o perfil do cliente
-* **Resultado:** [ ] Correto  [✔] Incorreto
+* **Resposta esperada:** Produto compatível com o perfil do cliente.
+* **Resultado:** [✔] Correto  [ ] Incorreto
 
-**Observação:** Durante a execução do teste ocorreu uma indisponibilidade temporária da API Gemini (erro 503 - UNAVAILABLE), impedindo a geração da recomendação. O problema foi causado pelo serviço externo de IA e não pela lógica implementada no agente.
+**Observação:** O agente analisou o perfil financeiro da cliente, identificou que diversas categorias do orçamento estavam próximas do limite e priorizou a estabilidade financeira antes de sugerir investimentos. Considerando que a cliente possui perfil conservador e estava com o orçamento comprometido, o agente recomendou primeiro o controle dos gastos, apresentando orientações práticas e personalizadas. A resposta foi coerente com os dados disponíveis e com as boas práticas de planejamento financeiro.
 
 ---
 
