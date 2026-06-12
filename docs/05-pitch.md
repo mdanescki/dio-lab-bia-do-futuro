@@ -67,4 +67,4 @@ O impacto esperado é aumentar a educação financeira, facilitar o planejamento
 
 > Cole aqui o link do seu pitch (YouTube, Loom, Google Drive, etc.)
 
-[Link do vídeo]
+https://youtube.com/shorts/ChECrxCLDI0?si=tdIpQ844bdTb5e7-
